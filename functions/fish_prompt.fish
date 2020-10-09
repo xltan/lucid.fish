@@ -165,7 +165,6 @@ end
 function fish_prompt
     set -l cwd (pwd | string replace "$HOME" '~')
 
-    echo ''
     set_color $lucid_cwd_color
     echo -sn $cwd
     set_color normal
